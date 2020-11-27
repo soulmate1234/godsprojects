@@ -225,4 +225,5 @@ if __name__ == '__main__':
         excute scripts
     """
     # 运行所有脚本
+    print('11111')
     run(devices, airs)
