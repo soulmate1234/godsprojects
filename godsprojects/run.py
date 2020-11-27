@@ -224,6 +224,5 @@ if __name__ == '__main__':
         执行脚本
         excute scripts
     """
-    print('1111')
     # 运行所有脚本
     run(devices, airs)
