@@ -1,10 +1,14 @@
 {
-    "start": 1606100720.1598742,
+    "start": 1606811598.0172963,
     "script": "\u4ea7\u5730\u884c\u60c5.air",
     "tests": {
         "CLBGL18A23000056": {
             "status": 4294967295,
-            "path": "D:\\wangmin\\air\\godsprojects\\\u4ea7\u5730\u884c\u60c5.air\\log\\CLBGL18A23000056\\log.html"
+            "path": "D:\\wangmin\\air\\project\\pyproject\\godsprojects\\\u4ea7\u5730\u884c\u60c5.air\\log\\CLBGL18A23000056\\log.html"
+        },
+        "f5fe9fcf": {
+            "status": 4294967295,
+            "path": "D:\\wangmin\\air\\project\\pyproject\\godsprojects\\\u4ea7\u5730\u884c\u60c5.air\\log\\f5fe9fcf\\log.html"
         }
     }
 }

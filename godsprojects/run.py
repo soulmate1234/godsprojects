@@ -190,9 +190,14 @@ def get_path(content, device=None, air="openCard.air"):
 # 获取路径下所有air的测试用例文件
 def get_cases(path):
     cases = []
-    for name in os.listdir(get_path(path)):  # 遍历当前路径下的文件夹和文件名称
+   # air_path = get_path(path) + '\\testcases'
+    for name in os.listdir(get_path(path)): # 遍历当前路径下的文件夹和文件名称
+        #print("2222222222222222222222222222222222222222222222222222222")
+        print(get_path(path))
+        #print(air_path)
         if name.endswith(".air"):
             cases.append(name)
+            print(cases)
     return cases
 
 
@@ -225,5 +230,5 @@ if __name__ == '__main__':
         excute scripts
     """
     # 运行所有脚本
-    print ('1111')
+    print('11111')
     run(devices, airs)
