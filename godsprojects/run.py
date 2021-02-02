@@ -216,6 +216,8 @@ if __name__ == '__main__':
     # devices = ["BTY4C16705003852","b7f0c036"]
     # 获取所有测试用例
     airs = get_cases("root")
+    print(airs)
+    print(devices)
     # 将登录用例排在最前面执行，退出用例排在最后面执行
     # sort_airs = sort_cases(airs, "bossbb.air", "bossbb.air")
     # 获取指定用例,按顺序执行
