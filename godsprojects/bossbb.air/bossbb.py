@@ -8,7 +8,18 @@ auto_setup(__file__)
 
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
+
+PACKAGE = "com.sxc.bossbb"
+INSTALL_PATH = "/Users/shijifeng/Downloads/bossbb-android-release-1612235319212.apk"
+try:
+    clear_app(PACKAGE)
+except:
+    # 卸载App
+    uninstall(PACKAGE)
+    # 安装应用
+    install(INSTALL_PATH)
 start_app("com.sxc.bossbb")
+sleep(2)
 poco(text="手机号登录").click()
 
 poco(text="请输入手机号").click()
