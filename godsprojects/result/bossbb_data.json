@@ -1,10 +1,10 @@
 {
-    "start": 1612166701.2136111,
+    "start": 1613804312.4975202,
     "script": "bossbb.air",
     "tests": {
-        "CLBGL18A23000056": {
-            "status": 0,
-            "path": "/Users/shijifeng/PycharmProjects/godsprojects/godsprojects/bossbb.air/log/CLBGL18A23000056/log.html"
+        "f5fe9fcf": {
+            "status": 255,
+            "path": "/home/songxiaocai/test/godsprojects/godsprojects/bossbb.air/log/f5fe9fcf/log.html"
         }
     }
 }
