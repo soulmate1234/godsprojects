@@ -87,11 +87,11 @@ def run_one_report(air, dev):
                 "--lang",
                 "zh"
             ]
-            ret = subprocess.call(cmd, shell=True, cwd=os.getcwd())
+            ret = subprocess.call(cmd, cwd=os.getcwd())
             return {
                 'status': ret,
                 'path': os.path.join(log_dir, 'log.html')
-                }
+            }
         else:
             print("Report build Failed. File not found in dir %s" % log)
     except Exception as e:
@@ -164,7 +164,7 @@ def get_json_value_by_key(in_json, target_key, results=[]):
     # 获取路径
 
 
-def get_path(content, device=None, air="openCard.air"):
+def get_path(content, device=None, air="bossbb.air"):
     root_path = os.getcwd()
     path = os.getcwd()
     if content == "result":
@@ -179,7 +179,7 @@ def get_path(content, device=None, air="openCard.air"):
         path = log_dir
 
     elif content == "cases":
-    # 返回测试用例路径
+        # 返回测试用例路径
         path = os.path.join(root_path, air)
     else:
         # 返回根目录
@@ -190,11 +190,11 @@ def get_path(content, device=None, air="openCard.air"):
 # 获取路径下所有air的测试用例文件
 def get_cases(path):
     cases = []
-   # air_path = get_path(path) + '\\testcases'
-    for name in os.listdir(get_path(path)): # 遍历当前路径下的文件夹和文件名称
-        #print("2222222222222222222222222222222222222222222222222222222")
+    # air_path = get_path(path) + '\\testcases'
+    for name in os.listdir(get_path(path)):  # 遍历当前路径下的文件夹和文件名称
+        # print("2222222222222222222222222222222222222222222222222222222")
         print(get_path(path))
-        #print(air_path)
+        # print(air_path)
         if name.endswith(".air"):
             cases.append(name)
             print(cases)
