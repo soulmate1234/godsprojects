@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="pymysql" />
+          <option value="bytes.encoding" />
         </list>
       </option>
     </inspection_tool>
