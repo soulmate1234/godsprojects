@@ -1,10 +1,10 @@
 {
-    "start": 1613806430.9694076,
+    "start": 1614062445.7234776,
     "script": "bossbb.air",
     "tests": {
-        "f5fe9fcf": {
-            "status": 255,
-            "path": "/home/songxiaocai/test/godsprojects/godsprojects/bossbb.air/log/f5fe9fcf/log.html"
+        "69f69bed": {
+            "status": 4294967295,
+            "path": "D:\\wangmin\\air\\1\\godsprojects\\godsprojects\\bossbb.air\\log\\69f69bed\\log.html"
         }
     }
 }
