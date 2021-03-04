@@ -20,7 +20,6 @@ def test_b():
     print("------->test_b")
     #assert 0 # 断言失败
 
-<<<<<<< HEAD
 
 num = 1
 print("-------------------------------------------------------------")
@@ -33,7 +32,6 @@ def fun():
 fun()
 print(num)
 
-=======
->>>>>>> master
+
 if __name__ == '__main__':
        pytest.main(["-s","test_1.py"]) # 调用pytest的main函数执行测试
