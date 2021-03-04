@@ -1,5 +1,9 @@
-
 # coding=utf-8
+'''
+Author:wangmin
+Date:2021.2.24
+'''
+
 
 import time
 import hmac
@@ -12,9 +16,8 @@ from numpy import long
 
 
 
-#测试群的机器人
 
-
+#encryption
 timestamp = str(round(time.time() * 1000))
 secret = 'SEC7cf8c2c586e7d0ca1ac2a7f233a1d3491d8762e23feea813cadab8b362f68bad'
 secret_enc = secret.encode('utf-8')

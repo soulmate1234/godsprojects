@@ -9,7 +9,7 @@ import json
 import shutil
 from airtest.core.android.adb import ADB
 from jinja2 import Environment, FileSystemLoader
-
+from src.common.dingding_ms import Dingtalk
 
 def run(devices, airs):
     """"
@@ -232,3 +232,5 @@ if __name__ == '__main__':
     # 运行所有脚本
     print('11111')
     run(devices, airs)
+    time.sleep(5)
+
